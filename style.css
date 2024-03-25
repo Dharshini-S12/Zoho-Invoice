@@ -5,6 +5,8 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    /* font-family: sans-serif; */
+    background-color: rgb(4, 4, 114);
 }
 html{
     scroll-behavior: smooth;
@@ -15,7 +17,7 @@ html{
     background-color: #fff;
 }
 .logo{
-    height: 65px;
+    height: 55px;
 }
 .brand{
     color: #2c2b2b;
@@ -32,7 +34,10 @@ html{
     font-size: 15px;
     font-weight: 600;
 }
-.brand-.brand-all-products{
+.brand-all-products{
+    color: #000;
+}
+.brand-all-products:hover{
     color: #000;
 }
 .menu{
@@ -47,4 +52,70 @@ html{
     height: 20px;
     width: 20px;
 }
+.nav-brand-items-right{
+    display: flex;
+    margin-left: 540px;
+}
+.search-anchor{
+    color: #000;
+    font-size: 14.5px;
+}
+.search-anchor:hover{
+    color: #000;
+}
+.Signin-anchor{
+    color: red;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+.Signin-anchor:hover{
+    color: red;
+}
+.Signin-anchor-1{
+    background-color: red;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 10px;
+}
+.Signin-anchor-1:hover{
+    color: #fff;
+}
+.nav-link{
+    color: #000;
+    display: inline;
+    font-size: 18px;
+}
+.collapse-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 20px;
+}
+.color{
+    color: #353434;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+
+}
+
 /*Navigation-ends*/
+
+@media screen and (min-width: 600px){
+    .nav-link{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 600px){
+    .media{
+        display: none;
+    }
+    
+}
