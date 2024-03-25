@@ -6,19 +6,40 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    /* background-color: #fff; */
 }
-.bg{
-    background-color: white;
+html{
+    scroll-behavior: smooth;
 }
-.color{
-    color:  black;
-}
-.color1{
-    color:  gray;
-}
-.color2{
-    color: red;
-}
+/*Navigation-start*/
 .navbar{
     padding: 15px;
 }
+.nav-bg{
+    background-color: #fff;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+}
+.brand{
+    color: #000;
+    font-weight: 600;
+}
+.brand:hover{
+    color: #000;
+    /* color: rgb(255, 106, 0) */
+}
+.logo{
+    height: 80px;
+}
+.items{
+    color: #000;
+}
+.items:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem; /*gap between a tag and underline*/
+    text-decoration-color: rgb(181, 181, 181);
+}
+.menu{
+    color: #000;
+}
+/*Navigation-ends*/
