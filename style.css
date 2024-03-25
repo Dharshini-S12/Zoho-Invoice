@@ -35,21 +35,16 @@ html{
 .brand-.brand-all-products{
     color: #000;
 }
-.items{
-    color: #000;
-}
-.items:hover{
-    color: gray;
-    text-decoration: underline;
-    text-underline-offset: 1rem; /*gap between a tag and underline*/
-    text-decoration-color: rgb(181, 181, 181);
-}
 .menu{
     color: #000;
 }
-.llll{
+.nav-brand-items-left{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+}
+.arrow-down{
+    height: 20px;
+    width: 20px;
 }
 /*Navigation-ends*/
