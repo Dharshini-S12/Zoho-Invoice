@@ -10,6 +10,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
 /*Navigation-start*/
 
 .nav-bg{
@@ -25,7 +26,7 @@ html{
     font-weight: 100;
 }
 .brand:hover{
-    color: #000;
+    color: rgb(12, 182, 239);
 }
 .brand-all-products{
     color: black;
@@ -33,11 +34,8 @@ html{
     font-size: 15px;
     font-weight: 600;
 }
-.brand-all-products{
-    color: #000;
-}
 .brand-all-products:hover{
-    color: #000;
+    color: rgb(12, 182, 239);
 }
 .menu{
     color: #000;
@@ -129,8 +127,28 @@ html{
     margin-top: 15px;
     margin-left: 260px;
 }
+.main-flex-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.flex-nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-text{
+    font-size: 13px;
+    font-weight: lighter;
+}
 
 /*Navigation-ends*/
+/* Section-1-starts */
+.section1{
+    padding: 60px;
+    padding-left: 130px;
+    
+}
+/* Section-1-End */
 
 @media screen and (min-width: 600px){
     .nav-link,
