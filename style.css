@@ -145,8 +145,29 @@ html{
 /* Section-1-starts */
 .section1{
     padding: 60px;
-    padding-left: 130px;
-    
+    padding-left: 130px; 
+}
+.logo1{
+    height: 55px;
+}
+.white{
+    color: #fff;
+}
+.section1-navtop{
+    display: flex;
+    flex-direction: row;
+}
+.section1-navtop-right{
+    display: flex;
+    margin-left: 480px;
+    gap: 1rem;
+}
+.navtop-items{
+    color: #fff;
+    font-size: 17px;
+}
+.navtop-arrow{
+    font-size: 12px;
 }
 /* Section-1-End */
 
@@ -155,14 +176,18 @@ html{
     .nav-link-other{
         display: none;
     }
-    
-}
-@media screen and (min-width: 600px){
     .media{
         display: none;
     }
     .linehr{
         display: none;
     }
+    
+}
+@media screen and (max-width: 600px){
+    .logo1{
+        display: none;
+    }
+    
     
 }
